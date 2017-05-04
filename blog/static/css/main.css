@@ -1,3 +1,29 @@
 body {
-    background: red;
+    font-family: Palatino;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-weight: normal;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.post-title {
+    font-weight: normal;
+}
+
+.post-title a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
 }
