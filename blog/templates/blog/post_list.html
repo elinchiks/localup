@@ -5,6 +5,14 @@
         <title></title>
     </head>
     <body>
-        Hello
+        <h1>Local Up projects</h1>
+        {% for post in posts %}
+            <article>
+                <h1><a href=""> {{ post.title }}</a></h1>
+                <p>{{ post.text | linebreaksbr }}</p>
+                <span>published: {{post.published_date}}</span>
+            </article>
+            {{ post }}
+        {% endfor %}
     </body>
 </html>
